@@ -65,4 +65,4 @@ if st.button("質問する"):
         with st.spinner("考え中..."):
             answer = generate_response(user_question, expert)
             st.success("回答が届きました！")
-            st.write(answer)
+            st.write(answer.content)
